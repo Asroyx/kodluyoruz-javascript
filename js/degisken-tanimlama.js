@@ -12,3 +12,7 @@ console.log(serverName);
 
 serverName = "https://kodluyoruz.org";
 console.log(serverName);
+
+// ???
+let password = "1234";
+console.log(password);
