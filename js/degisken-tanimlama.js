@@ -40,3 +40,6 @@ fullName = "2: Bilgi : " + fullName;
 fullName = "Sifirlandi";
 fullName += " ve Yeni Bilgi Eklendi";
 console.log(fullName);
+
+// Attempting to declare a variable as empty using const
+// const serverPassword; // It is mandatory to provide an initial value (initializer) for this variable
