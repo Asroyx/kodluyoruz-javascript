@@ -5,7 +5,7 @@ console.log(serverName);
 
 // Declaring an empty let variable
 
-let serverName;
+//let serverName
 console.log(serverName);
 
 // Assigning a value to a variable using let
@@ -21,7 +21,7 @@ console.log(password);
 // Trying to use a variable without assigning a value
 
 console.log(fullName);
-// let fullName = "Hakan Yalcinkaya"; This will result in an error
+// let fullName = "Hakan Yalcinkaya" This will result in an error
 var fullName = "Hakan Yalcinkaya"; // This is a correct
 
 // Modifying the value inside a variable defined with 'let'
