@@ -28,3 +28,15 @@ var fullName = "Hakan Yalcinkaya"; // This is a correct
 
 fullName = "Lorem Ipsum Dolor";
 console.log(fullName);
+
+// Concatenation or addition operation
+
+fullName += " Yeni Eklenen Bilgi";
+console.log(fullName + " Test Bilgisi");
+
+fullName = fullName + " Yeni Bilgi";
+fullName = "2: Bilgi : " + fullName;
+
+fullName = "Sifirlandi";
+fullName += " ve Yeni Bilgi Eklendi";
+console.log(fullName);
