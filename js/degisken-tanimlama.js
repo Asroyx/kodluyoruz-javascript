@@ -7,3 +7,8 @@ console.log(serverName);
 
 let serverName;
 console.log(serverName);
+
+// Assigning a value to a variable using let
+
+serverName = "https://kodluyoruz.org";
+console.log(serverName);
