@@ -13,6 +13,11 @@ console.log(serverName);
 serverName = "https://kodluyoruz.org";
 console.log(serverName);
 
-// ???
+// Define a variable by assigning information to it with let
+
 let password = "1234";
 console.log(password);
+
+// Trying to use a variable without assigning a value
+console.log(fullName);
+let fullName = "Hakan Yalcinkaya";
