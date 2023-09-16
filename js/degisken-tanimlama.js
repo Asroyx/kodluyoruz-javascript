@@ -43,3 +43,10 @@ console.log(fullName);
 
 // Attempting to declare a variable as empty using const
 // const serverPassword; // It is mandatory to provide an initial value (initializer) for this variable
+
+// Declaring a variable with const
+const SERVER_PASSWORD = "pawd23pi355a";
+console.log(SERVER_PASSWORD);
+
+// SERVER_PASSWORD = "1234"; Once a value is assigned to a variable declared with 'const,' that value cannot be changed.
+// console.log(SERVER_PASSWORD);
