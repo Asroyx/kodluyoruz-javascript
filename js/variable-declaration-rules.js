@@ -25,3 +25,12 @@ let info = "Türkçe Bilgi Yazdırılıyor";
 let infoTurkish = "Türkçe Bilgi Yazdırılıyor";
 let infoJapanase = "日本語情報";
 console.log(infoJapanase);
+
+// Do not use meaningless variable names!
+// https://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered
+// When I wrote this, only God and I understood what I was doing
+// Now, God only knows
+
+let x = 1; // This is not correct usage
+
+// Do not use meaningless variable names like x, y, z, k, i, e, etc.!
