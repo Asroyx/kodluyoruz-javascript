@@ -34,3 +34,9 @@ console.log(infoJapanase);
 let x = 1; // This is not correct usage
 
 // Do not use meaningless variable names like x, y, z, k, i, e, etc.!
+
+// #### Additional Information:
+// 1: use is/has when defining booleans:
+let isActive = true;
+let hasPassword = false;
+// 2: Line Length < 80
