@@ -17,3 +17,11 @@ let kodluyoruzSERverInfo = ""; // This is not correct usage
 const password = "1234"; // This is not correct usage
 const PASSWORD = "1234";
 const SERVER_PASSWORD = "1234";
+
+// Usage of turkish and other languages in variables
+let türkçeBilgi = "Türkçe Bilgi Yazdırılıyor"; // This is not correct usage
+// let turkceBilgi, wrong usage
+let info = "Türkçe Bilgi Yazdırılıyor";
+let infoTurkish = "Türkçe Bilgi Yazdırılıyor";
+let infoJapanase = "日本語情報";
+console.log(infoJapanase);
