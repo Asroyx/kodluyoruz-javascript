@@ -13,6 +13,11 @@ let fullName = "";
 let kodluyoruzServerInfo = "";
 let kodluyoruzSERverInfo = ""; // This is not correct usage
 
+// let firstName = "Hakan", lastName = "Yalcinkaya"
+let firstName = "Hakan";
+let lastName = "Yalcinkaya";
+console.log(firstName, lastName);
+
 // UPPER_CASE Usage:
 const password = "1234"; // This is not correct usage
 const PASSWORD = "1234";
