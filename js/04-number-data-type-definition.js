@@ -15,3 +15,21 @@ console.log(
   "Total Price:",
   total
 );
+
+// Increment and decrement operations:
+
+let counter = 320;
+counter = counter + 1; // long way
+counter += 1;
+counter++;
+console.log(counter);
+
+counter--;
+counter = 1;
+console.log(counter);
+
+counter *= 10;
+console.log(counter);
+
+counter /= 2;
+console.log(counter);
