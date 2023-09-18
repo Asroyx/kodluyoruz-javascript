@@ -33,3 +33,9 @@ console.log(counter);
 
 counter /= 2;
 console.log(counter);
+
+// Operator precedence:
+// https://en.wikipedia.org/wiki/Order_of_operations
+
+console.log(2 + 3 * 10); // 32 ???????????
+console.log((2 + 3) * 10); // 50 ???????????
