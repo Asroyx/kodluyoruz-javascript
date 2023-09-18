@@ -50,3 +50,10 @@ console.log("Box Remaining Product Example: ", 18 % 8);
 // Exponentiation **:
 console.log(2 * 2 * 2 * 2);
 console.log(2 ** 4);
+
+// Rounding down operation > Math.floor:
+console.log("Rounding Down:", Math.floor(1.9)); // -> 1
+// Rounding up operation > Math.ceil:
+console.log("Rounding Up:", Math.ceil(1.9)); // -> 2
+// Nearest rounding operation > Math.round:
+console.log("Nearest Rounding: ", Math.round(1.5)); // 1.4 -> 1, 1.5 -> 2
