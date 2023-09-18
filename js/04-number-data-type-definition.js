@@ -46,3 +46,7 @@ console.log(17 % 2); // If it's 0, it's even; if it's 1, it's odd.
 
 // Does the box hold all 8 products?
 console.log("Box Remaining Product Example: ", 18 % 8);
+
+// Exponentiation **:
+console.log(2 * 2 * 2 * 2);
+console.log(2 ** 4);
