@@ -43,3 +43,6 @@ console.log((2 + 3) * 10); // 50 ???????????
 // Finding the remainder using mod % operator:
 // Is the number even or odd?
 console.log(17 % 2); // If it's 0, it's even; if it's 1, it's odd.
+
+// Does the box hold all 8 products?
+console.log("Box Remaining Product Example: ", 18 % 8);
