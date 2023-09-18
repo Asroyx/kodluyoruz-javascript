@@ -16,6 +16,13 @@ console.log(
   total
 );
 
+// Convert a string to a number and display the result
+let stringNumber = "11";
+console.log(stringNumber);
+let newNumber = Number(stringNumber);
+console.log(newNumber);
+console.log("Information sent to the Number constructor:", Number("111"));
+
 // Increment and decrement operations:
 
 let counter = 320;
