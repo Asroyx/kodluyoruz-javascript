@@ -17,3 +17,10 @@ Boolean(""); // false
 userName = "user";
 
 console.log("User Name:", Boolean(userName));
+
+// 0-0, null, false, NaN, undefined, ("") ->
+
+Boolean(0); // false
+Boolean(-0); // false
+Boolean(-0.1); // true
+Boolean(0 === 0); // true
