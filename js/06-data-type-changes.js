@@ -34,3 +34,7 @@ console.log("number3: ", number3, typeof(number3));
 let number4 = "11.4px";
 number4 = parseFloat(number4);
 console.log("number4: ", number4, typeof(number4));
+
+// Converting from a numeric data type to a stringlet number5 = 55;
+number5 = number5.toString();
+console.log(number5, typeof(number5));
