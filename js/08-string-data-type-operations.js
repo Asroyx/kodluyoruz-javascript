@@ -3,3 +3,6 @@
 let email = "hakanyalcinkaya@gmail.com";
 let firstName = "hakan";
 let lastName = "YALCINKAYA";
+
+// String character count -> length
+console.log(email.length);
