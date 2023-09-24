@@ -10,3 +10,7 @@ console.log(email.length);
 // Finding the first character -> [0]
 console.log(firstName[0]);
 console.log(firstName.charAt(0));
+
+// Uppercase / Lowercase
+firstName = firstName.toUpperCase();
+console.log(firstName);
