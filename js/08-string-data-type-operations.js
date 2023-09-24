@@ -6,3 +6,7 @@ let lastName = "YALCINKAYA";
 
 // String character count -> length
 console.log(email.length);
+
+// Finding the first character -> [0]
+console.log(firstName[0]);
+console.log(firstName.charAt(0));
