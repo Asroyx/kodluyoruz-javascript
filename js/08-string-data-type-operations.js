@@ -24,3 +24,11 @@ email.search("nonexistent"); // -1
 let DOMAIN = email.slice(email.search("@") + 1);
 console.log(DOMAIN);
 console.log(DOMAIN.slice(0, DOMAIN.indexOf("."))); // extracting only the 'gmail' part
+
+// Replace the information -> replace:
+email = email.replace("gmail.com", "kodluyoruz.org");
+console.log(email);
+
+// Is the desired information present? -> includes
+email.includes("dkfhsd"); // false
+email.includes("@"); // true
