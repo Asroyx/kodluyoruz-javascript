@@ -14,3 +14,8 @@ console.log(firstName.charAt(0));
 // Uppercase / Lowercase
 firstName = firstName.toUpperCase();
 console.log(firstName);
+
+// Searching for Desired Information in a String and Finding Its Position -> search:
+console.log(email.search("@"));
+console.log(email[15]);
+email.search("nonexistent"); // -1
