@@ -32,3 +32,9 @@ console.log(email);
 // Is the desired information present? -> includes
 email.includes("dkfhsd"); // false
 email.includes("@"); // true
+
+// Capitalize the first letters
+firstName = "FIRST";
+lastName = "LAST";
+let fullName = `${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()} ${lastName[0].toUpperCase()}${lastName.slice(1).toLowerCase()}`;
+console.log(fullName);
