@@ -19,3 +19,8 @@ console.log(firstName);
 console.log(email.search("@"));
 console.log(email[15]);
 email.search("nonexistent"); // -1
+
+// Extracting a portion of the string -> slice: (domain information)
+let DOMAIN = email.slice(email.search("@") + 1);
+console.log(DOMAIN);
+console.log(DOMAIN.slice(0, DOMAIN.indexOf("."))); // extracting only the 'gmail' part
