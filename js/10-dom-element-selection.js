@@ -6,3 +6,8 @@
 let title = document.getElementById("title");
 title.innerHTML = "Changed Information";
 console.log(title.innerHTML);
+
+let link = document.querySelector("#kodluyoruzLink");
+link.innerHTML += " changed";
+link.style.color = "red";
+link.classList.add("btn");
