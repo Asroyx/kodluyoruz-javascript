@@ -1,7 +1,8 @@
 //********** Comparison Operators and Logical Operators *****
 // Reference: https://www.w3schools.com/js/js_comparisons.asp
 
-let price = "100";
+let price = "0";
+let user = "hakan";
 
 // == Equal to (value only)
 console.log("price == 1:", price == 1);
@@ -25,3 +26,15 @@ console.log("price > 200:", price > 200);
 
 // >= Greater than or equal to
 console.log("price >= 100:", price >= 100);
+
+// && (and)
+price = 0;
+console.log(price > 0 && user !== "guest");
+
+// || (or)
+console.log(price > 0 || user !== "guest");
+
+// ! (not)
+user = "guest";
+price = 1;
+console.log(price > 0 && !(user === "guest"));
