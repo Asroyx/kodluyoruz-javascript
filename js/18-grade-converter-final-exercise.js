@@ -57,4 +57,4 @@ if (grade >= 0 && grade <= 100) {
   alert("Please enter information in the correct range");
 }
 
-document.querySelector("#info").innerHTML = `${letterGrade} -> ${grade}`;
+info.innerHTML = `${letterGrade} -> ${grade}`;
