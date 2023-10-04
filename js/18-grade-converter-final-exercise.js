@@ -52,9 +52,11 @@ if (grade >= 0 && grade <= 100) {
     info.classList.add("text-danger");
     letterGrade = `${frown} FF`;
   }
+
+  info.innerHTML = `${letterGrade} -> ${grade}`;
+  
 } else {
   // Alert the user of the error
   alert("Please enter information in the correct range");
 }
 
-info.innerHTML = `${letterGrade} -> ${grade}`;
