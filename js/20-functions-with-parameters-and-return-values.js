@@ -22,3 +22,10 @@ function greetings2(firstName, lastName) {
 
 let greetingInfo = greetings2("First", "Last");
 console.log(greetingInfo);
+
+function domIdWriteInfo(id, info) {
+  let domInfo = document.querySelector(`#${id}`);
+  domInfo.innerHTML = info;
+}
+
+domIdWriteInfo("greeting", greetings2("Lorem", "Ipsum"));
