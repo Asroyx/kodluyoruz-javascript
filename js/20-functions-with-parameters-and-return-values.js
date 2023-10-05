@@ -28,4 +28,7 @@ function domIdWriteInfo(id, info) {
   domInfo.innerHTML = info;
 }
 
-domIdWriteInfo("greeting", greetings2("Lorem", "Ipsum"));
+let htmlInfo = "<span style='color:red'>RED Header</span>";
+
+domIdWriteInfo("greeting", htmlInfo);
+domIdWriteInfo("info", greetings2("Lorem", "Ipsum"));
