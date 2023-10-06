@@ -21,3 +21,11 @@ const helloFunctionV3 = (firstName, lastName) =>
   console.log(`Hello ${firstName} ${lastName}`);
 
 helloFunctionV3("helloFunctionV3", "lastName");
+
+const helloFunctionV4 = (firstName, lastName) => {
+  let info = `Hello ${firstName} ${lastName}`;
+  console.log(info);
+  return info;
+};
+
+helloFunctionV4("helloFunctionV3", "lastName");
