@@ -5,3 +5,6 @@ localStorage.setItem("myCat");
 
 // Changing data in myCat
 localStorage.setItem("myCat", "CodeCat");
+
+// Removing data in myCat
+localStorage.removeItem("myCat");
