@@ -11,9 +11,9 @@ userFormDOM.addEventListener("submit", formHandler);
 
 const alertDOM = document.querySelector("#alert");
 
-const alertFunction = (message) => `
+const alertFunction = (title, message) => `
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
-<strong>Holy guacamole!</strong> ${message}
+<strong>${title}</strong> ${message}
 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>`;
 
@@ -28,7 +28,10 @@ function formHandler(event) {
     USER_NAME.value = "";
     SCORE.value = "";
   } else {
-    alertDOM.innerHTML = alertFunction("Please enter missing information");
+    alertDOM.innerHTML = alertFunction(
+      "Tittle",
+      "Please enter missing information"
+    );
   }
 }
 
