@@ -9,6 +9,14 @@
 let userFormDOM = document.querySelector("#userForm");
 userFormDOM.addEventListener("submit", formHandler);
 
+const alertDOM = document.querySelector("#alert");
+
+const ALERT = `
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+<strong>Holy guacamole!</strong> You should check in on some of those fields below.
+<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>`;
+
 function formHandler(event) {
   event.preventDefault();
 
@@ -17,6 +25,10 @@ function formHandler(event) {
 
   if (USER_NAME.value && SCORE.value) {
     addItem(USER_NAME.value, SCORE.value);
+    USER_NAME.value = "";
+    SCORE.value = "";
+  } else {
+    alertDOM.innerHTML = ALERT;
   }
 }
 
