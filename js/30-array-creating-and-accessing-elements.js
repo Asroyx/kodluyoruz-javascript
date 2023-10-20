@@ -11,6 +11,10 @@ let emptyArray = [];
 
 // getting the number of elements in an array
 
+console.log(items.length);
+
+document.querySelector("#info").innerHTML = items.length;
+
 // calling the first element in an array
 
 // calling the last element in an array
