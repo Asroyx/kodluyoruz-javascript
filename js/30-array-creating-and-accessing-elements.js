@@ -24,3 +24,7 @@ console.log(items[0]);
 console.log(items[items.length - 1]);
 
 // checking if the information in a variable is an array
+
+console.log(typeof items);
+
+console.log(Array.isArray(items));
