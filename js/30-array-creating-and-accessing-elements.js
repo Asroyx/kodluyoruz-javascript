@@ -28,3 +28,9 @@ console.log(items[items.length - 1]);
 console.log(typeof items);
 
 console.log(Array.isArray(items));
+
+// Which ones return isArray -> True?
+
+console.log(" [] : ", Array.isArray([]));
+console.log("1 : ", Array.isArray(1));
+console.log("true: ", Array.isArray(true));
