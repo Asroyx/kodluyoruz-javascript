@@ -21,4 +21,6 @@ console.log(items[0]);
 
 // calling the last element in an array
 
+console.log(items[items.length - 1]);
+
 // checking if the information in a variable is an array
