@@ -23,6 +23,13 @@ console.log(items[0]);
 
 console.log(items[items.length - 1]);
 
+// Calling the middle element in an array
+
+console.log(
+    "middle:",
+    items[Math.floor(items.length / 2)]
+  );  
+
 // checking if the information in a variable is an array
 
 console.log(typeof items);
