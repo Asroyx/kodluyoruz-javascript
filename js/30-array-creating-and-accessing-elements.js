@@ -17,6 +17,8 @@ document.querySelector("#info").innerHTML = items.length;
 
 // calling the first element in an array
 
+console.log(items[0]);
+
 // calling the last element in an array
 
 // checking if the information in a variable is an array
