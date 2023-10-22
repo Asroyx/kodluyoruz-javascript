@@ -6,6 +6,8 @@ console.log("items - initial state: ", items);
 
 // Array: Add element to the end -> push
 items.push(50);
+console.log(items);
 
 // Array: Add element to the beginning -> unshift
 items.unshift(5);
+console.log(items);
