@@ -3,3 +3,6 @@
 
 let items = [10, 20, 30, 40, 50];
 console.log("items - initial state: ", items);
+
+// Array: Add element to the end -> push
+items.push(50);
