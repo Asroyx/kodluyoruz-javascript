@@ -11,3 +11,7 @@ console.log(items);
 // Array: Add element to the beginning -> unshift
 items.unshift(5);
 console.log(items);
+
+// Array: Pop the last element -> pop
+let lastItem = items.pop(); // // Added the last element to lastItem
+console.log("lastItem: ", lastItem, "items: ", items);
