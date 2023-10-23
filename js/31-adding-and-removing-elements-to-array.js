@@ -16,6 +16,5 @@ console.log(items);
 let lastItem = items.pop(); // // Added the last element to lastItem
 console.log("lastItem: ", lastItem, "items: ", items);
 
-// Array: Remove element from the beginning -> shift
-let firstItem = items.shift(); // Added the first element to firstItem
-console.log("firstItem: ", firstItem, ", items: ", items);
+let lastItem = items.pop(); // // Added the last element to lastItem
+console.log("lastItem: ", lastItem, "items: ", items);
