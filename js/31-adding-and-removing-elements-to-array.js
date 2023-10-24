@@ -23,3 +23,7 @@ console.log("firstItem: ", firstItem, "items: ", items);
 // Change the first item
 items[0] = 5;
 console.log(items);
+
+// Change the value of the last element
+items[items.length - 1] = 1000;
+console.log(items);
