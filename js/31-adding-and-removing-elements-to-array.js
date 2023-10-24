@@ -20,10 +20,16 @@ console.log("lastItem: ", lastItem, "items: ", items);
 let firstItem = items.pop(); // Added the last element to lastItem
 console.log("firstItem: ", firstItem, "items: ", items);
 
+// Changing the information of an item in an array:
+
 // Change the first item
 items[0] = 5;
 console.log(items);
 
 // Change the value of the last element
 items[items.length - 1] = 1000;
+console.log(items);
+
+// Assign value to the 10000th index
+items[10000] = 10000;
 console.log(items);
