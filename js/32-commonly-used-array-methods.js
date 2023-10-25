@@ -23,3 +23,8 @@ console.log(items[0][0]);
 let newItems = items.splice(1, 5);
 console.log("newItems: ", newItems);
 console.log("items: ", items);
+
+// Find the index of an item in an array - indexOf('value')
+items.unshift("lorem");
+items.push("ipsum");
+console.log(items.indexOf("ipsum"));
