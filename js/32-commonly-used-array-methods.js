@@ -8,6 +8,10 @@ const items = [1, 2, 3, 4, 5];
 const femaleUsers = ["Ayse", "Hulya", "Merve"];
 const maleUsers = ["Ahmet", "Hasan", "Mehmet"];
 
+// Adding at the beginning
 items.unshift(femaleUsers);
+
+// Adding at the end
+items.push(maleUsers);
 
 console.log(items);
