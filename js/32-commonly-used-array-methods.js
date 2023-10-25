@@ -18,3 +18,8 @@ console.log(items);
 console.log(items - length);
 console.log(items[0].length);
 console.log(items[0][0]);
+
+// Extracting items from an array - splice(pos, item?)
+let newItems = items.splice(1, 5);
+console.log("newItems: ", newItems);
+console.log("items: ", items);
