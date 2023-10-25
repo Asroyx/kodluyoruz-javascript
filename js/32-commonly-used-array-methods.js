@@ -15,3 +15,6 @@ items.unshift(femaleUsers);
 items.push(maleUsers);
 
 console.log(items);
+console.log(items - length);
+console.log(items[0].length);
+console.log(items[0][0]);
