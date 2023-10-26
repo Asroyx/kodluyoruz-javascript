@@ -52,3 +52,4 @@ console.log(allUsers);
 
 // Convert array data to string
 console.log(allUsers.toString());
+console.log(allUsers.join(" --- "));
