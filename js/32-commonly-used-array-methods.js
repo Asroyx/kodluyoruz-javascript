@@ -49,3 +49,6 @@ console.log(es6Items);
 // ES6 method to merge multiple array structures
 let allUsers = [...femaleUsers, ...maleUsers];
 console.log(allUsers);
+
+// Convert array data to string
+console.log(allUsers.toString());
