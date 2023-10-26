@@ -45,3 +45,7 @@ console.log("items", items);
 
 let es6Items = [...items]; // ES6 copy method
 console.log(es6Items);
+
+// ES6 method to merge multiple array structures
+let allUsers = [...femaleUsers, ...maleUsers];
+console.log(allUsers);
