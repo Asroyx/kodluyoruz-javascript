@@ -53,3 +53,6 @@ console.log(allUsers);
 // Convert array data to string
 console.log(allUsers.toString());
 console.log(allUsers.join(" --- "));
+
+// Add an element to the desired index information -> splice(index, 0, value)
+allUsers.splice(allUsers.length - 1, 0, "Melissa");
