@@ -28,3 +28,20 @@ console.log("items: ", items);
 items.unshift("lorem");
 items.push("ipsum");
 console.log(items.indexOf("ipsum"));
+
+// Array Copy → slice, [...ES6]
+let copyItems = items;
+console.log(items);
+
+copyItems.pop(); // Remove the last item
+console.log("copyItems", copyItems);
+console.log("items", items);
+
+console.log("After copying:");
+copyItems = items.slice(); // Copy the array
+copyItems.pop(); // Remove the last item
+console.log("copyItems", copyItems);
+console.log("items", items);
+
+let es6Items = [...items]; // ES6 copy method
+console.log(es6Items);
