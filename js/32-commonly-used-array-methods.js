@@ -56,3 +56,5 @@ console.log(allUsers.join(" --- "));
 
 // Add an element to the desired index information -> splice(index, 0, value)
 allUsers.splice(allUsers.length - 1, 0, "Melissa");
+allUsers.splice(Math.floor(allUsers.length / 2), 0, "Lorem");
+console.log(allUsers);
