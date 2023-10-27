@@ -15,6 +15,10 @@ const users = ["Lorem", "Ipsum", "Dolor"];
 //   console.log(index);
 // }
 
+const userListDOM = document.querySelector("#userList");
+
 for (index = 0; index < users.length; index++) {
-  console.log(users[index]);
+  const liDOM = document.createElement("li");
+  liDOM.innerHTML = users[index];
+  userListDOM.appendChild(liDOM);
 }
