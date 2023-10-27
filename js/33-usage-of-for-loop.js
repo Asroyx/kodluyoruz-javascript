@@ -6,6 +6,11 @@
 
 const users = ["Lorem", "Ipsum", "Dolor"];
 
-for (let index = 0; index < users.length; index++) {
+// for (let index = 0; index < users.length; index++) {
+//   console.log(index);
+// }
+
+let index = 0;
+for (; index < users.length; index++) {
   console.log(index);
 }
