@@ -13,10 +13,16 @@ const LOREM_LIST = [
 
 let counter = 0;
 
+// for (; counter < 10; counter++) {
+//   console.log(counter);
+//   if (counter === 5) {
+//     break;
+//   }
+// }
+
 for (; counter < 10; counter++) {
-  console.log(counter);
   if (counter === 5) {
-    break;
+    continue;
   }
+  console.log(counter);
 }
-console.log(counter);
