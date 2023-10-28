@@ -33,7 +33,7 @@ let index = 0;
 
 for (; index < LOREM_LIST.length; index++) {
   if (LOREM_LIST[index] == "dolor") {
-    break;
+    continue;
   }
   let LI_DOM = document.createElement("li");
   LI_DOM.innerHTML = LOREM_LIST[index];
