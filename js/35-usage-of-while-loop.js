@@ -8,9 +8,16 @@
 //   counter++;
 // }
 
-let userName;
+// let userName;
 
-while (!userName) {
+// while (!userName) {
+//   userName = prompt("Enter your username");
+//   console.log(userName);
+// }
+
+let userName = "";
+
+while (userName != "") {
   userName = prompt("Enter your username");
   console.log(userName);
 }
