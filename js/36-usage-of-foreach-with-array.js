@@ -13,6 +13,8 @@ const PRODUCTS = [
   "Keyboard",
 ];
 
-PRODUCTS.forEach((product, index, array) => (array[index] = product + " 111"));
+PRODUCTS.forEach(
+  (product, index, array) => (array[index] = `${product.toUpperCase()}`)
+);
 
 console.log(PRODUCTS);
