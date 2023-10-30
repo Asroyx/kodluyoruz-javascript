@@ -18,3 +18,19 @@ PRODUCTS.forEach(
 );
 
 console.log(PRODUCTS);
+
+/*  const userListDOM = document.querySelector("#userList");
+
+    for (index = 0; index < users.length; index++) {
+    const liDOM = document.createElement("li");
+    liDOM.innerHTML = users[index];
+    userListDOM.appendChild(liDOM);
+    }
+ */
+
+const userListDOM = document.querySelector("#userList");
+PRODUCTS.forEach((item) => {
+  const liDOM = document.createElement("li");
+  liDOM.innerHTML = item;
+  userListDOM.append(liDOM);
+});
