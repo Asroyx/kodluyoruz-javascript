@@ -13,4 +13,6 @@ const PRODUCTS = [
   "Keyboard",
 ];
 
-PRODUCTS.forEach((product) => console.log(product));
+PRODUCTS.forEach((product, index, array) => (array[index] = product + " 111"));
+
+console.log(PRODUCTS);
