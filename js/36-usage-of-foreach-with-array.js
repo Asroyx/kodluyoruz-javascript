@@ -12,3 +12,5 @@ const PRODUCTS = [
   "Mouse",
   "Keyboard",
 ];
+
+PRODUCTS.forEach((product) => console.log(product));
