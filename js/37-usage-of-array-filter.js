@@ -25,3 +25,21 @@ const USERS = [
 // const ACTIVE_USERS = USERS.filter((user) => user.isActive === true);
 const ACTIVE_USERS = USERS.filter((user) => user.isActive);
 console.log(ACTIVE_USERS);
+
+// Quiz
+const person = [
+  {
+    name: "Adem",
+    age: 25,
+    languages: ["JavaScript", "CSS"],
+  },
+  {
+    name: "Oğuz",
+    age: 33,
+    languages: ["Java", "HTML"],
+  },
+];
+
+// Filter the people array to find individuals older than 30
+
+// Filter the people array to find who know JavaScript
