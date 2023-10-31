@@ -45,3 +45,5 @@ const olderPeople = person.filter((personItem) => personItem.age > 30);
 console.log(olderPeople);
 
 // Filter the people array to find who know JavaScript
+const jsDevs = person.filter((jsDev) => jsDev.languages.includes("JavaScript"));
+console.log(jsDevs);
