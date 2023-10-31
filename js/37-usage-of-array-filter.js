@@ -21,3 +21,6 @@ const USERS = [
   { fullName: "Asya Basar", isActive: true },
   { fullName: "Aksel Durmaz", isActive: false },
 ];
+
+const ACTIVE_USERS = USERS.filter((user) => user.isActive === true);
+console.log(ACTIVE_USERS);
