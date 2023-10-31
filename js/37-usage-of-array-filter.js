@@ -11,6 +11,9 @@ const PRODUCTS = [
   "Keyboard",
 ];
 
+const NEW_PRODUCTS = PRODUCTS.filter((item) => item.length > 5);
+console.log(NEW_PRODUCTS);
+
 // Online Users ??
 const USERS = [
   { fullName: "Ayse Sumer", isActive: false },
