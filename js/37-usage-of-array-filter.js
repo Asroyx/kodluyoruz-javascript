@@ -10,3 +10,11 @@ const PRODUCTS = [
   "Mouse",
   "Keyboard",
 ];
+
+// Online Users ??
+const USERS = [
+  { fullName: "Ayse Sumer", isActive: false },
+  { fullName: "Ahmet Urgan", isActive: true },
+  { fullName: "Asya Basar", isActive: true },
+  { fullName: "Aksel Durmaz", isActive: false },
+];
