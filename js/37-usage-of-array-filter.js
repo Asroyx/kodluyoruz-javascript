@@ -41,5 +41,7 @@ const person = [
 ];
 
 // Filter the people array to find individuals older than 30
+const olderPeople = person.filter((personItem) => personItem.age > 30);
+console.log(olderPeople);
 
 // Filter the people array to find who know JavaScript
