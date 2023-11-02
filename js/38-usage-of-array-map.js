@@ -6,3 +6,6 @@ const USERS = ["AYSE", "MehMet", "TugCE", "AkSEL"];
 // Keep the original name in userName,
 // Capitalize the first letter in shortName (A.)
 // Capitalize the first letter in newName
+
+const NEW_USERS = USERS.map((user) => user.toLowerCase());
+console.log(NEW_USERS);
