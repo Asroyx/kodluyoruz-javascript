@@ -18,3 +18,15 @@ let item3 = {};
 let item4 = new Object();
 
 console.log("object1", object1);
+
+// Exercise about Object.Create()
+
+let countriesTalkSpanish = {
+  continent: "South America",
+  language: "Spanish",
+};
+
+let uruguay = Object.create(countriesTalkSpanish);
+uruguay.capital = "Montevideo";
+
+console.log(uruguay);
