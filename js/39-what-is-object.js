@@ -12,3 +12,9 @@ let item2 = {};
 
 console.log("item1", typeof item1);
 console.log("item2", typeof item2);
+
+// Create Object
+let item3 = {};
+let item4 = new Object();
+
+console.log("object1", object1);
