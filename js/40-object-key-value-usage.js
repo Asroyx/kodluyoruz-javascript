@@ -28,11 +28,20 @@ console.log(laptop1);
 laptop1.version = "10.15.7";
 console.log(laptop1);
 
-// Access to key information(keys) -> Object.Key(item)
+// Access to key information(keys) -> Object.key(item)
 keys = Object.keys(laptop1);
 console.log(keys);
 
 keys.forEach((keyInfo) => {
   console.log(keyInfo);
   console.log(laptop1[keyInfo]);
+});
+
+// Access to value information(values) -> Object.values(item)
+console.log(Object.values(laptop1));
+
+let values = Object.values(laptop1);
+
+values.forEach((value) => {
+  console.log("value: ", value);
 });
