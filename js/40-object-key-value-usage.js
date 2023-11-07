@@ -18,3 +18,12 @@ console.log(laptop1);
 console.log(laptop1.brand, laptop1["brand"]);
 console.log(laptop1.model, laptop1["model"]);
 console.log(laptop1["2kg"]);
+
+// Adding a new value to the key information
+laptop1.brand = "Mac";
+laptop1["brand"] = "Mac";
+console.log(laptop1);
+
+// Adding a new information
+laptop1.version = "10.15.7";
+console.log(laptop1);
