@@ -32,6 +32,7 @@ console.log(laptop1);
 keys = Object.keys(laptop1);
 console.log(keys);
 
-keys.forEach((item) => {
-  console.log(item);
+keys.forEach((keyInfo) => {
+  console.log(keyInfo);
+  console.log(laptop1[keyInfo]);
 });
