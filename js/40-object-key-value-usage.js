@@ -11,4 +11,4 @@ let laptop1 = {
 console.log(laptop1);
 console.log(laptop1.brand);
 console.log(laptop1.model);
-console.log(laptop1.2kg);
+console.log(laptop1["2kg"]);
