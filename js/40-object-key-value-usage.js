@@ -5,10 +5,16 @@
 let laptop1 = {
   brand: "Apple",
   model: "MacBook Pro",
+  modelName: "MacBook Pro",
+  // model-name: "MacBook Pro",
+  model_name: "MacBook Pro",
+
   "2kg": 2,
 };
 
 console.log(laptop1);
-console.log(laptop1.brand);
-console.log(laptop1.model);
+// Correct key information usage
+
+console.log(laptop1.brand, laptop1["brand"]);
+console.log(laptop1.model, laptop1["model"]);
 console.log(laptop1["2kg"]);
