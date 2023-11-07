@@ -27,3 +27,11 @@ console.log(laptop1);
 // Adding a new information
 laptop1.version = "10.15.7";
 console.log(laptop1);
+
+// Access to key information(keys) -> Object.Key(item)
+keys = Object.keys(laptop1);
+console.log(keys);
+
+keys.forEach((item) => {
+  console.log(item);
+});
