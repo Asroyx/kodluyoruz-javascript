@@ -5,6 +5,9 @@ let user1 = {
   lastName: "Uzman",
   score: [1, 2, 3, 4],
   isActive: true,
+  shortName: function () {
+    return `${this.firstName} ${this.lastName}`;
+  },
 };
 
 console.log(user1);
