@@ -11,6 +11,12 @@ let settings = {
   serverName: "kodluyoruz.org",
 };
 
-// Extracting information in an object at once
+/* Extracting information in an object at once
 let userName = settings.userName;
+console.log(userName);
+*/
+
+let { userName, password, isActive, ip, serverName } = settings;
+console.log(userName, password, isActive, ip, serverName);
+console.log(settings);
 console.log(userName);
