@@ -16,7 +16,7 @@ let userName = settings.userName;
 console.log(userName);
 */
 
-let { userName, password, isActive, ip, serverName } = settings;
+let { userName: user, password, isActive, ip: serverIP, serverName } = settings;
 console.log(userName, password, isActive, ip, serverName);
 console.log(settings);
 console.log(userName);
