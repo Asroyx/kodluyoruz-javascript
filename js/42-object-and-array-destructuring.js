@@ -1,0 +1,12 @@
+// How to Use Object and Array Destructuring
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+// Object Destructuring:
+
+let settings = {
+  userName: "loremIpsım",
+  password: "BadPassword",
+  isActive: false,
+  ip: "127.0.0.1",
+  serverName: "kodluyoruz.org",
+};
