@@ -10,3 +10,7 @@ let settings = {
   ip: "127.0.0.1",
   serverName: "kodluyoruz.org",
 };
+
+// Extracting information in an object at once
+let userName = settings.userName;
+console.log(userName);
