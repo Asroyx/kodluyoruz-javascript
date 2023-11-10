@@ -20,3 +20,11 @@ let { userName: user, password, isActive, ip: serverIP, serverName } = settings;
 console.log(userName, password, isActive, ip, serverName);
 console.log(settings);
 console.log(userName);
+
+// Extraction of some information in the object
+let {
+  userName: userName2,
+  password: password2,
+  isActive: isActive2,
+  ...newSettings
+} = settings;
