@@ -28,3 +28,5 @@ let {
   isActive: isActive2,
   ...newSettings
 } = settings;
+
+console.log(userName2, password2, isActive2, newSettings);
