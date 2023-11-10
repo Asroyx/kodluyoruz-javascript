@@ -32,8 +32,11 @@ let {
 console.log(userName2, password2, isActive2, newSettings);
 
 // Copying object with destructuring
+
+/* Incorrect Usage
 let settings2 = settings;
 
 settings2.userName = "Changed information";
 console.log("settings", settings);
 console.log("settings2", settings2);
+*/
