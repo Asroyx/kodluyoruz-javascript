@@ -40,3 +40,8 @@ settings2.userName = "Changed information";
 console.log("settings", settings);
 console.log("settings2", settings2);
 */
+
+let settings2 = { ...settings };
+settings2.userName = "Changed information";
+console.log("settings", settings);
+console.log("settings2", settings2);
