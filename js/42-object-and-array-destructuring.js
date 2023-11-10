@@ -45,3 +45,12 @@ let settings2 = { ...settings };
 settings2.userName = "Changed information";
 console.log("settings", settings);
 console.log("settings2", settings2);
+
+let score = [100, 200, 300, 400];
+
+let [score1, score2, ...otherScore] = score;
+console.log(score1, score2, otherScore);
+
+// Same as object copy ... let settings2= {...setting}
+let copyOfScore = [...score];
+console.log(copyOfScore);
