@@ -8,6 +8,10 @@ try {
   });
 } catch (error) {
   console.log("error: ", error);
+  //   products = [1, 2, 3];
+  //   products.forEach((item) => {
+  //     console.log(item);
+  //  });
 }
 console.log("Error management is working correctly");
 
