@@ -2,10 +2,13 @@
 
 let products;
 
-products.forEach((item) => {
-  console.log(item);
-});
-
+try {
+  products.forEach((item) => {
+    console.log(item);
+  });
+} catch (error) {
+  console.log("error: ", error);
+}
 console.log("Error management is working correctly");
 
 let info = "kodluyoruz";
