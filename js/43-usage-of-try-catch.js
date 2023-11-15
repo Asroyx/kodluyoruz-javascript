@@ -1,8 +1,8 @@
 // Usage of try-catch for error handling
 
-let items;
+let products;
 
-items.forEach((item) => {
+products.forEach((item) => {
   console.log(item);
 });
 
