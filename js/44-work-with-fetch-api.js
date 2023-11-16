@@ -7,3 +7,7 @@ fetch("data/settings.json")
     console.log(responseJson);
     console.log(responseJson.userName);
   });
+
+fetch("https://jsonplaceholder.typicode.com/posts")
+  .then((response) => response.json())
+  .then((responseJson) => console.log(responseJson));
