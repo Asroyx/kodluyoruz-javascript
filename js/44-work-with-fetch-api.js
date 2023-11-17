@@ -9,11 +9,15 @@ fetch("data/settings.json")
     console.log(responseJson.userName);
   });
 
+let userListDOM = document.querySelector("#userList");
+
 // Fetch data from the API
 fetch("https://jsonplaceholder.typicode.com/posts")
   .then((response) => response.json())
   .then((responseJson) => {
     responseJson.forEach((item) => {
-      console.log(item);
+      let liDOM = document.createElement("li");
+      liDOM.innerHTML = item.title;
+      userListDOM.appendChild(liDOM);
     });
   });
