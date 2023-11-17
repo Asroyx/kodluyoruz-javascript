@@ -12,4 +12,8 @@ fetch("data/settings.json")
 // Fetch data from the API
 fetch("https://jsonplaceholder.typicode.com/posts")
   .then((response) => response.json())
-  .then((responseJson) => console.log(responseJson[0]));
+  .then((responseJson) => {
+    responseJson.forEach((item) => {
+      console.log(item);
+    });
+  });
