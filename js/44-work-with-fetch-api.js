@@ -10,4 +10,4 @@ fetch("data/settings.json")
 
 fetch("https://jsonplaceholder.typicode.com/posts")
   .then((response) => response.json())
-  .then((responseJson) => console.log(responseJson));
+  .then((responseJson) => console.log(responseJson[0]));
